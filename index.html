@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__left">
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1430/1430127.png" alt="logo" />
+                    </a>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <button class="header__action_white" type="button">
+                        Login
+                    </button>
+                    <button class="header__action" type="button">
+                        Sign Up
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Labyrinth Game</h1>
+        <div id="maze-container">
+            <div id="player"></div>
+            <div id="end"></div>
+            <div id="maze">
+                <!-- <div class="wall vertical" style="top: 0; left: 0px;"></div> -->
+                <!-- <div class="wall vertical" style="top: 80px; left: 40px;"></div> -->
+                <!-- <div class="wall vertical" style="top: 80px; left: 40px;"></div> -->
+                <div class="wall vertical" style="top: 160px; left: 40px;"></div>
+                <div class="wall vertical" style="top: 200px; left: 40px;"></div>
+                <div class="wall vertical" style="top: 240px; left: 40px;"></div>
+                <div class="wall vertical" style="top: 280px; left: 40px;"></div>
+                <div class="wall vertical" style="top: 280px; left: 80px;"></div>
+                <div class="wall vertical" style="top: 360px; left: 120px;"></div>
+                <div class="wall vertical" style="top: 280px; left: 120px;"></div>
+                <div class="wall horizontal" style="top: 0px; left: 160px;"></div>
+                <div class="wall vertical" style="top: 40px; left: 160px;"></div>
+                <div class="wall vertical" style="top: 80px; left: 160px;"></div>
+
+                <div class="wall vertical" style="top: 160px; left: 120px;"></div>
+                <div class="wall vertical" style="top: 160px; left: 160px;"></div>
+                <div class="wall vertical" style="top: 160px; left: 200px;"></div>
+                <div class="wall vertical" style="top: 160px; left: 240px;"></div>
+                <div class="wall vertical" style="top: 160px; left: 260px;"></div>
+
+                <div class="wall vertical" style="top: 150px; left: 360px;"></div>
+                <div class="wall vertical" style="top: 190px; left: 360px;"></div>
+                <div class="wall vertical" style="top: 230px; left: 360px;"></div>
+
+                <div class="wall vertical" style="top: 360px; left: 330px;"></div>
+                <div class="wall vertical" style="top: 320px; left: 330px;"></div>
+
+                <div class="wall vertical" style="top: 250px; left: 250px;"></div>
+                <div class="wall vertical" style="top: 290px; left: 250px;"></div>
+                <div class="wall vertical" style="top: 250px; left: 220px;"></div>
+                <div class="wall vertical" style="top: 330px; left: 250px;"></div>
+                <div class="wall vertical" style="top: 40px; left: 250px;"></div>
+                <div class="wall vertical" style="top: 80px; left: 250px;"></div>
+                <div class="wall vertical" style="top: 0px; left: 290px;"></div>
+
+                <div class="wall horizontal" style="top: 40px; left: 0;"></div>
+                <div class="wall horizontal" style="top: 40px; left: 80px;"></div>
+                <div class="wall horizontal" style="top: 40px; left: 40px;"></div>
+                <div class="wall horizontal" style="top: 360px; left: 0;"></div>
+                <div class="wall horizontal" style="top: 120px; left: 0;"></div>
+                <div class="wall horizontal" style="top: 120px; left: 80px;"></div>
+                <div class="wall horizontal" style="top: 240px; left: 120px;"></div>
+            </div>
+        </div>
+</main>
+<footer class="footer">
+    <div class="footer-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/1430/1430127.png" alt="logo" height="50" width="50">
+        <div class="footer-column">
+            <h3>Want to receive our awesome stories?</h3>
+            <input type="text" placeholder="Your email">
+            <button>Subscribe</button>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>Email: </li>
+                <li><a href="mailto:info@test.com">info@test.com</a></li>
+                <li><a href="#">About us</a></li>
+         
+            </ul>
+        </div>
+        <div class="footer-column">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Lead generation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Customer engagement</a></li>
+                    <li><a href="#">Customer support</a></li>
+                    <li><a href="#">Outbound Messages</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
